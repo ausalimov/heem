@@ -1,0 +1,45 @@
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Get cosine scores for doc2vec
+adv_cnoise_ubuntu ubuntu_ground_truth 0.46814751625061035
+adv_noise_ubuntu ubuntu_ground_truth 1.5560142993927002
+adv_noise_ubuntu_old ubuntu_ground_truth 0.4441818594932556
+ubuntu_ground_truth ubuntu_ground_truth 0.0
+ubuntu_hred ubuntu_ground_truth 0.8148900717496872
+ubuntu_vhred ubuntu_ground_truth 0.6420932114124298
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Training doc2vec model
+Get cosine scores for lda2vec
+adv_cnoise_ubuntu ubuntu_ground_truth 0.06419920921325684
+adv_noise_ubuntu ubuntu_ground_truth 0.1295587420463562
+adv_noise_ubuntu_old ubuntu_ground_truth 0.09052085876464844
+ubuntu_ground_truth ubuntu_ground_truth 0.0
+ubuntu_hred ubuntu_ground_truth 0.18875569105148315
+ubuntu_vhred ubuntu_ground_truth 0.07860797643661499
+Get cosine scores for heem vector
+adv_cnoise_ubuntu ubuntu_ground_truth 0.481293261051178
+adv_noise_ubuntu ubuntu_ground_truth 1.0598141476511955
+adv_noise_ubuntu_old ubuntu_ground_truth 0.46268796920776367
+ubuntu_ground_truth ubuntu_ground_truth 0.0
+ubuntu_hred ubuntu_ground_truth 0.8178822994232178
+ubuntu_vhred ubuntu_ground_truth 0.7511578053236008
+Training SVM for adv_cnoise_ubuntu
+Training SVM for adv_noise_ubuntu
+Training SVM for adv_noise_ubuntu_old
+Training SVM for ubuntu_hred
+Training SVM for ubuntu_vhred
+adv_cnoise_ubuntu 14.887654388620888
+adv_noise_ubuntu 14.875162277836193
+adv_noise_ubuntu_old 14.88794748356708
+ubuntu_hred 14.162177171686015
+ubuntu_vhred 14.157368429137994
