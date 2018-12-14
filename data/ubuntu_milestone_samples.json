@@ -1,0 +1,1368 @@
+[
+    [
+        {
+            "adv_noise_ubuntu_old": "http : //www . ubuntu . com",
+            "ubuntu_ground_truth": "after lusb, the terminal reports this info ID 12d1:1003 Huawei Technologies Co., Ltd. E220 HSDPA Modem / E230/E270/E870 HSDPA/HSUPA Modem you meant this 12d1:1003 ?",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean by the . . .",
+            "ubuntu_ground_truth": "yes, have you found any guides using that? if you run: gksudo gedit /lib/udev/rules.d/61-option-modem-modeswitch.rules add the line: ATTRS{idVendor}==\"12d1\", ATTRS{idProduct}==\"1003\", RUN+=\"modem-modeswitch -v 0x%s{idVendor} -p 0x%s{idProduct} -t option-zerocd\"",
+            "ubuntu_hred": "I don't know what you mean __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to see the contents of the device",
+            "ubuntu_ground_truth": "I recall after reading sthg about backtrack that with this code you determine dongle's \"something\" with some programs for cracking the dongles but what when I get that info? How to get it started within ubuntu?",
+            "ubuntu_hred": "I have a lot of the error message : \" sudo -i \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m just trying to _UNK",
+            "ubuntu_ground_truth": "http://linux.frankenberger.at/Huawei_E220.html http://thoughtsandideas.wordpress.com/2012/04/11/workarounds-found-for-huawei-e220-on-ubuntu-11-10/ tonnes of guides",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m trying to use a script to run on the server , but I don ' t have the right file",
+            "ubuntu_ground_truth": "thank you\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t think , but I don ' t really know what you are talking about",
+            "ubuntu_ground_truth": "thanks, i have a few good things to look into now, just what i was looking for.",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what to do",
+            "ubuntu_ground_truth": "the purpose of ssh is to run remote applications.. sshd_config supports jailrooting sftp, but not a terminal.. however you can \"lock\" ssh users to not being able to use a terminal by using /usr/lib/sftp (i forget the sftp path-- but you can use this sftp path as the user's login and they never get a bash-like shell)\n",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I ' m not sure , but I don ' t know if it is a bug or something",
+            "ubuntu_ground_truth": "DJones I am running 10.04.",
+            "ubuntu_hred": "I have a lot of the time I have to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not , and don ' ve been able to boot the machine",
+            "ubuntu_ground_truth": "what does 'gksu update-manager -c' report?",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , I get the new one , I just want to get the new one",
+            "ubuntu_ground_truth": "does not report that there is a new version out. So I am just holding. No rush.",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t ' d have to do that , I ' m just trying to get the _UNK of the kernel",
+            "ubuntu_ground_truth": "If you are running 10.04.x, then you won't be offered 12.04 until the update-manager package for 10.04 has been updated to detect it ( which is likely to be on/after the 12.04.1 release date)\n",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "no , I don ' t know how to do it",
+            "ubuntu_ground_truth": "i mountded the device sudo mount /dev/sda1 /mnt - that works - then sudo chroot /mnt -- error is no such file or command",
+            "ubuntu_hred": "I have a problem with the same problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just did a sudo fdisk and it said it was mounted",
+            "ubuntu_ground_truth": "and you\u00c4Re sure /dev/sda1 is the right partition? and there is just this one partition which contains all of your linux installation? you may use the web chat at http://webchat.freenode.net\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": ": http : _UNK . com . _UNK . _UNK . iso",
+            "ubuntu_ground_truth": "it's says 600Mhz Intel Original Processer",
+            "ubuntu_hred": "I have a lot of the time . I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want know if I can get the kernel to work up",
+            "ubuntu_ground_truth": "I was reading the \"CPU\" section of https://help.ubuntu.com/12.04/installation-guide/i386/hardware-supported.html It says the same for 11.04 too https://help.ubuntu.com/11.04/installation-guide/i386/hardware-supported.html",
+            "ubuntu_hred": "I have a lot of the time . I have a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure on the _UNK , I just want to know if I have the correct one",
+            "ubuntu_ground_truth": "i dont see i686 in there :(",
+            "ubuntu_hred": "I have a problem with the same problem . I have a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m looking into the source , but I ' m not sure if it ' s a",
+            "ubuntu_ground_truth": "\"However, Ubuntu natty will not run on i586 or earlier processors. Despite the architecture name \"i386\", support for actual 80386 processors (and their clones) was dropped with the Sarge (r3.1) release of Debian[2]. (No version of Linux has ever supported the 286 or earlier chips in the series.) Support for i586 and lower processors, as well as for i686 processors without the cmov instruction, was dropped in Ubuntu 10.10. Most i686 and later processors are still",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the latest version of the kernel , but I don ' t have any idea",
+            "ubuntu_ground_truth": "maybe i downloaded the x64 one\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "yes , I have tried it on the desktop , but I don ' t have a problem with the desktop",
+            "ubuntu_ground_truth": "i don't have stuuf on desktop i ll try it is it recursive, cause i cut put a folder. So that way my desktop wouldn't be full of crap or can i change in which folder it search ? ok, thanks, i just tried in Nautilus. I understand the principal. Since on desktop, i'm in the desktop folder, thats where it searches. Thanks",
+            "ubuntu_hred": "I have a lot of the time to get a new user to get a new user . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have a problem , I ' m not sure , I ' m just trying to find a package for it to be in the repos",
+            "ubuntu_ground_truth": "sorry was making coffee, don't think it is recursive, ctrl+f is though\n",
+            "ubuntu_hred": "you can use the package manager __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know if it is possible to do it , but don ' t have to do it in the first place",
+            "ubuntu_ground_truth": "ala xubuntu or such? or one of the more 'out there' ones ala mint?",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , but I don ' t want to use the alternate CD",
+            "ubuntu_ground_truth": "what you want, one of the closer distros kbuntu or xubuntu will probably cause less pain than some thing for away like mint why do you want to install lots of DE's on the same machine? Why not use VM's to install the base version of each distro instaed, or do a very minimal install and just install the one you will use.\n",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "you need to install the package from the repos",
+            "ubuntu_ground_truth": "I'm getting \"Access denied\" when I try to copy into /usr/share/applications",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m trying to use the command to run the command",
+            "ubuntu_ground_truth": "run: gksudo nautilus $HOME and you should be able to\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I ' m using the desktop , but I don ' t have the desktop effects",
+            "ubuntu_ground_truth": "but with the cli I cannot navigate the browser",
+            "ubuntu_hred": "I have a lot of the same thing to get a \" sudo \" \" sudo apt-get install \" and \" sudo apt-get install \" and \" sudo apt-get install \" and \" sudo apt-get install \" and \" sudo -i \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what the problem is , but I don have a look",
+            "ubuntu_ground_truth": "Almost every application can be used with a keyboard. If it gets too complicated just buy new batteries.\n",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I ' m using the command , but I don ' t have the option to open the right . . .",
+            "ubuntu_ground_truth": "thanks also, but I don't seem to have a fonts tab am using a \"stock\" ubuntu install, might I be missing something?",
+            "ubuntu_hred": "I have a \" sudo apt-get install \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know what you ' re doing",
+            "ubuntu_ground_truth": "apologies, I am not on 12.10. It appears you might want to install Gnome Tweak Tool/Advanced Settings because Gnome has removed some of it's advanced settings by default. You can also try a different window manager",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m using the default desktop , but I don ' t have a desktop manager",
+            "ubuntu_ground_truth": "thanks for the info, I will try those. Do you have any idea on what WM might handle a high DPI display better? I have tried gnome-shell and unity but they don't do so well yet.",
+            "ubuntu_hred": "I have a lot of the same thing to be a good idea . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I ' m not on the way , I ' m just trying to be a bit of the _UNK",
+            "ubuntu_ground_truth": "I am a fan of lxde or xfce\n",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "no , I don ' t know , I ' m just trying to get the source package",
+            "ubuntu_ground_truth": "I didn't say anything on that subject",
+            "ubuntu_hred": "I have a lot of the error message : \" sudo -i \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what to do , I ' m not sure if it ' s a _UNK or something",
+            "ubuntu_ground_truth": "thanks, sorry about that\n",
+            "ubuntu_hred": "I have a lot of the time to get a new user to get a \" sudo \" sudo apt-get install \" __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "http : //www . _UNK . _UNK . html",
+            "ubuntu_ground_truth": "ok, ty, how can I use that to modify \"search\"?",
+            "ubuntu_hred": "I have a problem with a script that is not a problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t ' ve to be a good one",
+            "ubuntu_ground_truth": "You can create \"/etc/default/resolvconf\" and add specific variables to it which will be used by that script to set \"search\"\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t think so",
+            "ubuntu_ground_truth": "i wonder why they would move to making it less customizable - am i missing something or wording it wrong?",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what I want to do , I ' m just trying to get the latest kernel",
+            "ubuntu_ground_truth": "who ? make what less customisable ?",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have a home , I ' m just trying to get it to work",
+            "ubuntu_ground_truth": "im talking aboutn the thing on the top of my screen that says applications, places, etc... i dont want that at the top of my screen i want it on the bottom",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know what you ' re doing",
+            "ubuntu_ground_truth": "what ?",
+            "ubuntu_hred": "you can use the \" sudo apt-get install \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have tried that , I don ' t have any other options to do it",
+            "ubuntu_ground_truth": "hahaha\n",
+            "ubuntu_hred": "you can use the \" sudo apt-get install \" __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , I don ' t know what you mean , I ' m not sure",
+            "ubuntu_ground_truth": "moved where ? it even doesn't installed on my system",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really like it , I ' m just trying to find out what the problem is , . . .",
+            "ubuntu_ground_truth": "it's part of the software sources now. Don't ask me why",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure , I am trying to get the latest version from the repos",
+            "ubuntu_ground_truth": "ok",
+            "ubuntu_hred": "you can use the package manager __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I ' m just trying to get the latest version from the . . .",
+            "ubuntu_ground_truth": "if you go into software sources, it has it's own tab\n",
+            "ubuntu_hred": "you can use the package manager __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I ' m trying to get the _UNK to work , but I don ' t want to use it",
+            "ubuntu_ground_truth": "how to tell iptraf to watch specified TCP port , I did not find it in it man page also I need to store the output in file, can I redirect it to a file ?",
+            "ubuntu_hred": "I have a problem with a few days ago . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem ."
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t just use the _UNK , and it ' s a _UNK",
+            "ubuntu_ground_truth": "filter - tcp - define new filter iirc iptraf logs to /var/log/something\n",
+            "ubuntu_hred": "what do you mean ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "yes , but I don ' t really know how to do it",
+            "ubuntu_ground_truth": "both",
+            "ubuntu_hred": "I have a laptop with the same problem . I have a laptop with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I think I can get it working on the other computer , but I don ' t have a laptop",
+            "ubuntu_ground_truth": "which has the issue?\n",
+            "ubuntu_hred": "I have a laptop with the same problem . I have a laptop with the same problem . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don know if it is the same as the default one",
+            "ubuntu_ground_truth": "I see, but I would need some kind of guide for setting parameters as I'm not that computer savay if ubuntu 12.04 needed it",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m just trying to use the _UNK to get the _UNK to work on the laptop , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "his wiki is specific to our project and may not at all be relevant to 1204. 1204 MAY work out of the box, but older guides, will almost certainly show you how to make what does not in 1204 work.\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "yes , I have installed the desktop , I am using the same desktop",
+            "ubuntu_ground_truth": "yes. now I am reading about the audit system that was introduced in Linux Kernel 2.6. There is an audit daemon (auditd) which can be configured to monitor for certain things. I am going to have it monitor /etc/X11/xorg.conf to see what is changing it when I reboot",
+            "ubuntu_hred": "I have to get a \" sudo apt-get install \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don use the alternate option , but I don ' t know if it ' s possible to use the _UNK",
+            "ubuntu_ground_truth": "Ok, I don't know then. Sometimes I can even successfully make persistent settings as my normal user. I don't understand why they keep sometimes but not others.\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "newb....not sure how to do that. I'll google it...thx",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what you are talking about . . .",
+            "ubuntu_ground_truth": "https://help.ubuntu.com/community/UnityLaunchersAndDesktopFiles They don't have a colour - but some text editors colourise them to aid reading\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I don ' t know what you are doing , but I don ' t know how to do",
+            "ubuntu_ground_truth": "will it keep file permissions?",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know . . . I ' m just trying to get the source from the ubuntu machine",
+            "ubuntu_ground_truth": "'p' tells it to preserve permissions that may only be technically be default for creating a tar and only necessary when extracting it like tar xvpf backup.tar or whatever ... not sure but wont hurt during the create\n",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what you are doing",
+            "ubuntu_ground_truth": "I run 4 6 servers at home, plus 2 backup NAS units.",
+            "ubuntu_hred": "I have a problem with a new user , but I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I ' m just trying to get the _UNK to work with my ubuntu server",
+            "ubuntu_ground_truth": "you have quite a library of media then, dont ya",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to know what the problem is , I don ' t have a \" _UNK \" to",
+            "ubuntu_ground_truth": "No, 4 servers run as my hypervisors for servers. the 2 remaining are SAN servers.\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t really like that , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "Can i find them in Ubuntu software center?",
+            "ubuntu_hred": "I have a lot of the same thing to get a \" sudo apt-get install \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t really know how to do it",
+            "ubuntu_ground_truth": "within firefox... \"extras - addons\" search there for both of them",
+            "ubuntu_hred": "I have a lot of the reason , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the default ubuntu , I just want to know how to use it",
+            "ubuntu_ground_truth": "Ok let me check",
+            "ubuntu_hred": "I have a lot of the reason , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "the easy yt video downloader let u choose the quality u prefer too... just install it the downloader..... restart firefox, open a yt vid and check the \"icon\" below the video...\n",
+            "ubuntu_hred": "I have a lot of the time to get a few minutes ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just did it manually , but I don ' t have just installed the kernel",
+            "ubuntu_ground_truth": "because i'm hitting some issues with xen, if enabling it in the bios solves the problem, then probably the problem is somewhere else and i'll need to google for it... thanks",
+            "ubuntu_hred": "I have a lot of the same thing to get a few minutes ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t just not using the alternate CD , but I ' m not sure",
+            "ubuntu_ground_truth": "xen won't work worth a toss if VMX is disabled\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "it ' s just a the default , so you have to be a member of the server",
+            "ubuntu_ground_truth": "now i can ping it (i had to enable the lzo compression on client) i cannot reach the remote subnet adding a rule in the firewall forward the lan to vpn",
+            "ubuntu_hred": "I have a problem with a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I ' m just trying to get the ip address from the router to the router",
+            "ubuntu_ground_truth": "Hmm, ok, sounds like you've got it under control ^_^\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "yes , if you want use the alternate , then you will need to use the alternate CD",
+            "ubuntu_ground_truth": "no, it depends if you want to add disk space to existing partitions... most probably you arent",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to get the data from the disk",
+            "ubuntu_ground_truth": "my disk's are pretty much partitioned out into one big drive and I use virtualbox to seperate the space that I need\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t have a _UNK to do it",
+            "ubuntu_ground_truth": "Is there much difference between unsettings and ubuntu-tweak?",
+            "ubuntu_hred": "I have a problem with the same problem with the same time . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , but I don ' t want to use the _UNK",
+            "ubuntu_ground_truth": "unsettings is untiy related. tweak is more gnome3 related iirc they do",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m just trying to get the latest kernel to work on my laptop",
+            "ubuntu_ground_truth": "http://www.phoronix.com/scan.php?page=news_item&px=MTIzMzY",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not , but I don ' t have a link to the right one",
+            "ubuntu_ground_truth": "thx, but this sounds more like they will integrate plugins which mal gnome3 look like gnome2",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what it is , but I don ' t know if it is possible to use the same version",
+            "ubuntu_ground_truth": "better than nothing i should say :). Do you use unity?",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , but I don ' t want to use it",
+            "ubuntu_ground_truth": "yep, im using unity since 11.10 so this doesnt dodge me :)",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really like that much , but I ' m not sure of any more",
+            "ubuntu_ground_truth": "do you use a laptop?",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , I ' m using the alternate cd",
+            "ubuntu_ground_truth": "15,4\" laptop with a 23\" external in twinview",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t have a problem with it",
+            "ubuntu_ground_truth": "is there a way to disable touchpad while writing in ubuntu?",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what the default settings is , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "yes, in the systemsettings in th mouse and touchpad tab",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have to change the keyboard layout , but I don ' t have the option to change the brightness",
+            "ubuntu_ground_truth": "that option doesn't appear in my pc :) same here yes it was supposed, but that tab isn't appearing to me, which i find rather weird. I think the system isn't detecting my touchpad",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really sure to use the _UNK drivers , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "well, that could be the issue",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the default driver , I am using the default one",
+            "ubuntu_ground_truth": "did you need to install any additional package? like gsynaptics",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea in the repos , I just installed the drivers from the restricted drivers manager",
+            "ubuntu_ground_truth": "no, my dell machine worked ootb try lsusb and lspci to see if its recognized",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want the same sound card",
+            "ubuntu_ground_truth": "no, but it was found by doing \"xinput --list\"\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "if you have a 64 bit machine , it ' s not a 64",
+            "ubuntu_ground_truth": "the latest",
+            "ubuntu_hred": "I have a question , I have a lot of the time . I have a lot of the time to get a few minutes ago . I have a lot of the time to get a few minutes . I have a lot of the time to get a few minutes . I have a lot of the time to get a few minutes . I have a lot of the time to get a few minutes . I have a lot of the time to get a few minutes . I have a lot of the time to"
+        },
+        {
+            "adv_noise_ubuntu_old": "you need to install the latest one from the repos",
+            "ubuntu_ground_truth": "I thought atheros issues were a thing of the past, but you could try installing linux backports modules",
+            "ubuntu_hred": "I have a lot of the reason , but I don't know what I can do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just installed the latest kernel from the ubuntu site and it said it to the latest version",
+            "ubuntu_ground_truth": "how do I go about that, I find only old threads",
+            "ubuntu_hred": "I have a lot of the time I have to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m not sure to use the latest kernel",
+            "ubuntu_ground_truth": "Im not sure actually. It's changed every release, and I can't quite figure this one out. Doesn't really seem to be in the repos that I can see\n",
+            "ubuntu_hred": "I have a lot of the time I have to get a few days ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "you need to have a windows key to connect to the windows machine",
+            "ubuntu_ground_truth": "Shoot, I thought I've done that in the past.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure , I am using the live cd , but I can ' t get the grub to the boot menu",
+            "ubuntu_ground_truth": "i could be proved wrong, i would appreciate that, i am facing the same dilema sort of\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t have to do it manually , but I don ' t know what to do",
+            "ubuntu_ground_truth": "ah, exactly what I needed. Apparently, nl.archive.ubuntu.com works just fine.",
+            "ubuntu_hred": "I have a problem with my laptop , but I have to get a new user to get a new user . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m just trying to get the source of the source code and it is working",
+            "ubuntu_ground_truth": "wooooo :)\n",
+            "ubuntu_hred": "I have a lot of the help . I have a problem with a few days ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know what it is , I ' m not sure ,",
+            "ubuntu_ground_truth": "Best way to do it.",
+            "ubuntu_hred": "I have a problem with a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what you mean . . .",
+            "ubuntu_ground_truth": "no... it will most likely mess up your hdd...",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I ' m just trying to get the data on the drive , but I don ' t have to",
+            "ubuntu_ground_truth": "He's asking about transferring a small USB OS to a bigger drive. That's the easiest way to do it. It will NOT mess up the main drives. Unless you specifically target them.\n",
+            "ubuntu_hred": "I have a problem with a few days ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "yes , but I don ' t know what you are talking about",
+            "ubuntu_ground_truth": "no, thanks! I will look into these.. libreoffice apparently overrides openoffice. I'd like to have as many options as possible, side by side. that stuff looks like time management software.. I need to be able to do basic desktop publishing. Like openoffice, but so it prints without screwing up. running notepad in WINE is more reliable.",
+            "ubuntu_hred": "I have a lot of the error message : No such file . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have a look at the _UNK , but I ' m looking for a solution",
+            "ubuntu_ground_truth": "I used the wrong nickname. It wasn't meant for you\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t use it for a while",
+            "ubuntu_ground_truth": "where do i look on here",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know what the problem is , I ' m not sure",
+            "ubuntu_ground_truth": "this is the most recent... should have backlinks to the older reviews... which are actually from 2005, but probably still largely relevant\n",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "if you want to use the alternate CD , you should be able to get the alternate cd",
+            "ubuntu_ground_truth": "Sorry, I am unsure about this. Please join ##linux, you will get better support there. :) No point. Try installing a good OS.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure I am using the live cd , I am trying to get the alternate install to the alternate cd",
+            "ubuntu_ground_truth": "No point to what? If u r here to give a bad name ot Ubuntu then I am not to listen.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really , but I don ' t know what you mean ?",
+            "ubuntu_ground_truth": "Linux Mint is better.\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don know what you are doing . . .",
+            "ubuntu_ground_truth": "thanks for the answer! where can I find that file exactly?",
+            "ubuntu_hred": "what 's the command to do ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t think you ' ll need to be a bit more than",
+            "ubuntu_ground_truth": "use the locate command its your system.. id move the file somewhere safe..\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m just trying to get it to work . . .",
+            "ubuntu_ground_truth": "What functions?",
+            "ubuntu_hred": "I have a lot of the error message : \" sudo -i \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have a root account",
+            "ubuntu_ground_truth": "is more powerful then alias",
+            "ubuntu_hred": "I have a lot of the time to get a new user , but I don't know what I can do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have to do it , I just want _UNK the _UNK",
+            "ubuntu_ground_truth": "Do you have any idea how to implement it?",
+            "ubuntu_hred": "I have a lot of the time to get a few hours ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what the problem is , I don ' t know what to do",
+            "ubuntu_ground_truth": "example, nameiwant() {echo hello ;}",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m a little bit to get it working , I ' m just trying to get it to work",
+            "ubuntu_ground_truth": "I hope you aren't misunderstanding the question, I don't want to write C code to do this, I just want some kind of a tweak so that 'rn fileName' will compile and run fileName. I type that in terminal, it fails.",
+            "ubuntu_hred": "I have a question , but I have a problem with a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what to do , I ' m trying to find out of a . . .",
+            "ubuntu_ground_truth": "add it to ur bashrc",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m looking for a user , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "How do I do that, I mean I don't know where bashrc.txt is located.",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "you need to know the path is correct",
+            "ubuntu_ground_truth": "in ur home folder, hit ctrl+h if u dont got it create one",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want know that I have only one of the files in the folder",
+            "ubuntu_ground_truth": "I did 'gedit .bashrc' and I added 'nameiwant() { echo hello; }' and it didn't work.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean by \" _UNK \"",
+            "ubuntu_ground_truth": "is just an example, u put what ever code u want",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I am just trying to use the script to know the command to use the script",
+            "ubuntu_ground_truth": "Doesn't work, command not found.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know if it is possible to use the _UNK file",
+            "ubuntu_ground_truth": "u gotta reload it everytime u edit the bashrc file just run bash again",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure that I am using the right directory , I can get the files from the _UNK",
+            "ubuntu_ground_truth": "I did. I get \"syntax error near unexpected token\"",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m not sure , but I don ' t be able to use the command",
+            "ubuntu_ground_truth": "then u did something wrong",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure , I am trying to install the drivers from the command line , but I don ' t know what I",
+            "ubuntu_ground_truth": "Nothing is wrong except the code that you provided. Considering there is a syntax error.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , I don ' t know what it is",
+            "ubuntu_ground_truth": "Jordan_U not sure wat u guys on about by mine was correct =D u can do like name() { javac \"$1\" ;}",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure , I am trying to get the source from the source , but I am not sure I am not sure to be able to use the source code",
+            "ubuntu_ground_truth": "Yup did it. Thanks a lot.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really like it , but I ' m just trying to get the source to work",
+            "ubuntu_ground_truth": "use $@ for multiple arguments\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just installed the package _UNK and it said it was the newest version",
+            "ubuntu_ground_truth": "apt-get works fine, problem with apt-build",
+            "ubuntu_hred": "I have a lot of the error message : \" sudo apt-get install \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t use it , just don ' t use it",
+            "ubuntu_ground_truth": "sorry, i've never built a deb (other then the cheat of checkinstall). good luck man.\n",
+            "ubuntu_hred": "I have a lot of the error message : \" sudo apt-get install \" __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don look it up on my laptop",
+            "ubuntu_ground_truth": "sorry, my comment wasn't directed at you personally. The suggestions about swap space size seem rarely to come with a carefully thought-out explanation of why that size is optimal. That's why I suspect that they are not optimal. also, expectations about performance are often wrong without detailed knowledge of the relevant program's internals (the kernel, in this case), and careful measurements.",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not using a live CD , I ' m just trying to get the _UNK to work",
+            "ubuntu_ground_truth": "Just read from the above URL.",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is that . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have to the link , but I don ' t know how to get it",
+            "ubuntu_ground_truth": "it doesn't add confidence that that very page apologizes that its own advice is likely \"a myth\"",
+            "ubuntu_hred": "I don't know what the problem is that . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am not sure , I am just trying to get my wireless to work",
+            "ubuntu_ground_truth": "Read, don't comment. (And that is not what it says.)",
+            "ubuntu_hred": "I don't know what the problem is that . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I ' m just trying to get the data back and I ' ll get it",
+            "ubuntu_ground_truth": "cheer up\n",
+            "ubuntu_hred": "I have a lot of the help . I have a lot of the time to get a few minutes ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I am using the alternate CD , I am using the alternate CD",
+            "ubuntu_ground_truth": "http://paste.ubuntu.com/1142007/",
+            "ubuntu_hred": "I have a \" sudo apt-get install \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don know that you have a _UNK of the time",
+            "ubuntu_ground_truth": "try: sudo apt-get --purge remove flashplugin-installer ; sudo apt-get install flashplugin-nonfree\n",
+            "ubuntu_hred": "I have a \" sudo apt-get install \" __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know if you ' re using the _UNK kernel",
+            "ubuntu_ground_truth": "love my thinkpads too much",
+            "ubuntu_hred": "I have a problem with a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m just tried using the _UNK , I ' m not sure to use it",
+            "ubuntu_ground_truth": "thinkpad",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I think , I ' m just trying to get the card working on the laptop card",
+            "ubuntu_ground_truth": "this laptop has loads of life in it\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "you need to use the source code to compile a new source file",
+            "ubuntu_ground_truth": "After I installed libgnome2-dev I got a different output. http://pastebin.com/zpDeGs81 sorry it is so long.",
+            "ubuntu_hred": "I have a lot of the time . I have a lot of the time . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m just a _UNK of _UNK",
+            "ubuntu_ground_truth": "your user doesn't have permission to write to that location, you in general need to: sudo make install; (though I generally prefer to adjust --prefix to install it locally or build a package)",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have a backup , I can copy the files and copy it to the files and then copy them to the new user",
+            "ubuntu_ground_truth": "I thought that was what was going on thanks. :) I ran the command \"./configure && sudo make && sudo make install\" would that have worked.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I can just copy the files and copy files to the other one",
+            "ubuntu_ground_truth": "you shouldn't run: sudo make; but yes",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to get the files from the other computer",
+            "ubuntu_ground_truth": "Why should I not run sudo make?",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know how to do it , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "no need to, results in a bunch of build files you can't modify as your user, may have unpleasant side-effects, it's not a good idea to do this as root when you don't have to err that final 'this' should be 'things'",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to know what I am doing . . .",
+            "ubuntu_ground_truth": "Oh so would this output be good or bad? http://pastebin.com/CHrS9jHb",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t ' t just use the command , but I ' m just not sure how to do it",
+            "ubuntu_ground_truth": "looks successful to me",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have to do it , I just want to know if it ' s possible to use the _UNK",
+            "ubuntu_ground_truth": "Cool so when I reboot the right click menu should list \"Scan with bitdefender\".\n",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "yes , I ' m using the desktop version , I ' m using the alternate desktop",
+            "ubuntu_ground_truth": "i suppose those settings are in the xorg.conf?",
+            "ubuntu_hred": "I have a lot of the same thing to get a few minutes ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know how to do that",
+            "ubuntu_ground_truth": "Setting them up there is a good start, but you also have to configure it in Catalyst if you're running the proprietary AMD-drivers. The open source drivers detects it just fine though. The Catalyst drivers for Linux have always been a bit dodgy. :) Sorry, I mixed you and gogeta up. For NVIDIA it's only xorg.conf, yes. :) Might as well check the NVIDIA configuration utility though.",
+            "ubuntu_hred": "I have a lot of the same thing to get a few minutes ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the same card as the one I am using , I am not sure to be able to use the drivers",
+            "ubuntu_ground_truth": "ok thx will play around a little and see what happens\n",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "yes , I ' m using the right now , I ' m not sure , I ' m just trying to get the grub to work",
+            "ubuntu_ground_truth": "its 12.04",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "does it work ?",
+            "ubuntu_ground_truth": "If you had 9.10 it will right boot into your login screen. You have GRUB2 as 9.10 is/was shipped with version 2",
+            "ubuntu_hred": "I have a lot of the time I have to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the default one , I am using the default , I am using the default desktop environment",
+            "ubuntu_ground_truth": "yes but its not doing the behavior it says it would do on thne grub page",
+            "ubuntu_hred": "I have a live cd , but I have a live cd . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really know , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "Well then. You would need to describe the problem.",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I am trying to get the grub to boot from the live cd",
+            "ubuntu_ground_truth": "when i start my computer *nothing* is being automatically loaded. Grub 2 just loads up and sits there waiting for me to hit enter to go into an operating system. There isn't even a timer.",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same thing . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "Does it boot when you press enter, does 'tab key' work?",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the alternate install disk , but I can ' t get the grub menu to get the menu",
+            "ubuntu_ground_truth": "yes it works fine when I hit enter but I want it to automatically boot into an os",
+            "ubuntu_hred": "I have a problem with the same problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I don ' t know , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "I see. You can check your grub config in /boot/grub/grub.cfg. If WAIT is -1 it will wait for a prompt.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have tried the live cd , I just got the alternate cd and it should be the same as the boot option",
+            "ubuntu_ground_truth": "there is no 'WAIT' entry in there",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don know if it is the same or the new one",
+            "ubuntu_ground_truth": "Sorry, it is 'GRUB_TIMEOUT'. You must run sudo update-grub afterwards. The amoutn is in seconds. 'GRUB_TIMEOUT=30' will give you 30 seconds to respond before it boots into the default.",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m just trying to get it working on the _UNK",
+            "ubuntu_ground_truth": "I've already checked those videos, the problem is not with my screen resolution etc.",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have a mouse monitor , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "ok - they solved the same problem for me. Took me a couple of hours of fiddling though. And trying other screen capture software that I couldn't get working either...",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just tried it on the desktop , and it still doesn ' t work",
+            "ubuntu_ground_truth": "I think it must be my GPU, Ubuntu 12.10 doesn't support Nvidia Optimus, so I guess that sucks.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what to do , I ' m using the laptop . . .",
+            "ubuntu_ground_truth": "ah - ok. I'm on 12.04 with nvidia, but not optimus, so maybe a different kettle of fish\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "you ' d just use the package from the repos",
+            "ubuntu_ground_truth": "I eventually got --add-architecture to add the correct architectuure (armel vs arm) and got it working.",
+            "ubuntu_hred": "I have a lot of the same thing , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know how to do that",
+            "ubuntu_ground_truth": "yeah... you're aware of dpkg-architecture ?",
+            "ubuntu_hred": "I have a problem with the same problem . I have a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , I am using the latest version from the repos",
+            "ubuntu_ground_truth": "I found out about it, but I don't have Perl on this embedded system\n",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "you don ' t have to use the same command you just need to use the ' _UNK ' command",
+            "ubuntu_ground_truth": "good deal... cat /etc/X11/default-display-manager",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am trying to get the latest version from the site , I am trying to use it to install the _UNK",
+            "ubuntu_ground_truth": "/usr/sbin/lightdm http://paste.ubuntu.com/1286224/ <---- my /etc/X11/xorg.conf",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know how to do it , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "that is a terrible xorg.conf. But it seems the issue is lightdm is not starting... more than that.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have a _UNK , but I don ' t have the right drivers for my card",
+            "ubuntu_ground_truth": "what do you suggesting i should do",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t really know what I ' m doing",
+            "ubuntu_ground_truth": "if you are only running one monitor, try dumping the xorg alltogether... sudo mv /etc/X11/xorg.conf /etc/X11/old.xorg.conf and reboot... now that you know you can manually start x. ^ My hand is covered in blisters, and I cannot stand typing one handed... so I have to pull it out of ice water, and dry it, every time I type... until it burns so bad I have to dunk it again... I am going to have to bow out of support right now. Sorry.",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I was using the same as the last one , I was just wondering if it was the same thing",
+            "ubuntu_ground_truth": "no worries mate i hope you feel better soon , and thank you for helping me\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t really much to help that",
+            "ubuntu_ground_truth": "I use pip all the time if I need something that Ubuntu can't provide, or is too outdated.",
+            "ubuntu_hred": "I have a problem with a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have been using the ubuntu user , I just want know what I am doing",
+            "ubuntu_ground_truth": "I see.\n",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": ": ubuntu . com is not a good idea",
+            "ubuntu_ground_truth": "i'm doing it half because you ops are so uptight about it.",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not sure , I ' m just trying to use the _UNK to be able to get my wireless card working",
+            "ubuntu_ground_truth": "i'm no op, but i see you don't tend to be efficient, (you confusing me man :)\n",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "I agree .. but doesnt really answer my question. I would love to simply specific UID in the mount command, but it doesnt seem to be supported anymore.",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I can just use the live cd , but I don ' t have to do it",
+            "ubuntu_ground_truth": "yes Samba still takes the remotes client UID into",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have a script that I want to run on my server , but I want to use the server",
+            "ubuntu_ground_truth": "Do you know if there is a way to stop that?",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what you are talking about",
+            "ubuntu_ground_truth": "you have 3 option 1- give permitions to any body(big securitu hole) 2-change user uid (problem with local file ) 3- install nis ldap server to manage the whole thing\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I don ' t use it in the repos",
+            "ubuntu_ground_truth": "some pastebin it",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not sure , I ' m just trying to get the _UNK to work out of the box",
+            "ubuntu_ground_truth": "http://appdb.winehq.org/objectManager.php?sClass=version&iId=19141 If you read on down, there's a bit about 64-bit as well. I have both on this hard drive. Currently on 32",
+            "ubuntu_hred": "I have a problem with my laptop , but I don't know what I can do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to get the data on the drive",
+            "ubuntu_ground_truth": "So, do you have the web installer or full? hm, no idea, sorry There's a comment on the bottom, \"NOTE: These instructions work for almost any distro EXCEPT for Ubuntu 12.04 64bit. If you are unlucky and have that painful OS, scroll a little down and follow the Ubuntu-specific guide :) \"",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the alternate installer , but I don ' t have the alternate CD",
+            "ubuntu_ground_truth": "Yes I know. I'm trying to get this going on x86 Ubuntu. I also have a 64-bit installation. But I don't know how to patch.",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know how to do it on the internet",
+            "ubuntu_ground_truth": "anyway, sorry, can't help",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I was just wondering if you had to me with a _UNK , I ' m not sure help",
+            "ubuntu_ground_truth": "Thanks for your time anyway. =]\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I am using the default one , I just want to know the correct one",
+            "ubuntu_ground_truth": "I'm still a bit lost, any chance of a hand?",
+            "ubuntu_hred": "I have a problem with the same problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the default one , but I don ' t have the right drivers",
+            "ubuntu_ground_truth": "I'm not going to be here long enough, leaving work shortly.\n",
+            "ubuntu_hred": "I have a problem with the same problem with the same time . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t think , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "like the ones to be installed? or the installed to be run?",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I ' m not sure to use the alternate install CD",
+            "ubuntu_ground_truth": "Installed. The netbook also features the non-graphical installer.\n",
+            "ubuntu_hred": "I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t really like to know if it is possible , don ' t be a good idea",
+            "ubuntu_ground_truth": "randomly skype and xchat crashes at the same time with kind of message \"e/a-error\" does not seem a hardware problem so i think its a rights problem with the encrypted home folder. i am running some other apps via sux on a user withou encrypted home and there it seems to run well. in addidion to that kdenlive shows the hardware tuner only via root and sudo nethogs shows the vnc-traffic as unknown pid and unknown device and now i have no rights to write via nano into my home",
+            "ubuntu_hred": "I have a question , I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with a few days ago . I have a problem with"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what it is , it ' s just a _UNK of the _UNK",
+            "ubuntu_ground_truth": "well yeah that sounds like real problem, what does ls -lah $HOME say? you can change ownership of a directory with chown -R my-user: target_directory",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I can just copy the files and copy the files",
+            "ubuntu_ground_truth": "obviously its the right user",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have to do that , I just don ' t know how to do it",
+            "ubuntu_ground_truth": "try to nano the file that editing failed earlier?\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "not really sure , but I don ' t know how to do it",
+            "ubuntu_ground_truth": "i have the same config working on a 10.04 box. It appears in 12.04 lvm is on upstart and multipath is not. i do use lvm for my root folder nifty, is there any way to work around it? have you heard of anyone posting a bug about this to have it looked at? darn.... well i hope they can fix this eventually i hope they keep initrd around and move everything to upstart. Upstart is not easy to setup for programs that don't come packaged for upstart.",
+            "ubuntu_hred": "yes , but I have a problem with a new user , but I don't want to do that . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know how to do it , but I ' m not sure if it ' s a bug or anything",
+            "ubuntu_ground_truth": "thats odd. it should be built early in boot if you're using root. you said your lvs are missing if multipathing is enabled?\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I am using the alternate CD , I have a live CD , I can ' t boot the CD",
+            "ubuntu_ground_truth": "thats no help....that will take some time...and os performance cant be judged in lil time.......i asked if anyone has used them and can suggest which is better..... have used ubuntu so far with xfce kde and lxde installed on it",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what the problem is , I ' m just not sure . . .",
+            "ubuntu_ground_truth": "well xfce and lxde have similar dependencies so the comparison would really be between them, unity(default ubuntu) and kubuntu. personally i prefer kde or a ligher gtk environment like xfce or lxde\n",
+            "ubuntu_hred": "I don't know what you want to do . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you are talking about , but I don ' t know what you mean . . .",
+            "ubuntu_ground_truth": "thanks!",
+            "ubuntu_hred": "I have a problem with the latest version of the same time . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not sure , I ' m just trying to get the latest version from the repos",
+            "ubuntu_ground_truth": "http://nightly.mozilla.org/ looks like they made a custom icon",
+            "ubuntu_hred": "I have a problem with a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m looking for a file manager , but I don ' t know how to use it in the terminal",
+            "ubuntu_ground_truth": "what's the difference between simple and nightyl ff?\n",
+            "ubuntu_hred": "I have a lot of the time to get a few minutes ago . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t use the default kernel , I ' m not sure if it ' s a kernel",
+            "ubuntu_ground_truth": "Thought of that as well, especially since every couple of months I'd remove the heatsink and brush it out really good, and the thermal paste is wearing pretty thin. It could any of a hundred things.",
+            "ubuntu_hred": "I have a problem with a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m just been using the _UNK for the _UNK , and I ' m not sure it is , I ' m just trying to get the _UNK to work",
+            "ubuntu_ground_truth": "Thermal grease should be replaced each time the heat sink is taken off and put back on.\n",
+            "ubuntu_hred": "I don't know what the problem is that . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t really like it , but I ' m not sure",
+            "ubuntu_ground_truth": "oh he just wants to play the game?",
+            "ubuntu_hred": "I have a lot of the help . I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t have to do that , I ' m just trying to get the _UNK to work",
+            "ubuntu_ground_truth": "Correct. Thats what I already told him.",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not sure , I ' m just trying to _UNK a _UNK and I ' m just trying to get the _UNK",
+            "ubuntu_ground_truth": "ok.\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I ' m not sure if it ' s a _UNK or something",
+            "ubuntu_ground_truth": "I can't type that, when i click go to console",
+            "ubuntu_hred": "I have a wireless card , but I don't know what I can do . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I think I ' m just using a _UNK , to see the _UNK",
+            "ubuntu_ground_truth": "ctrl alt f2",
+            "ubuntu_hred": "I have a problem with the same problem with the same problem . I have a problem with the same problem . I have a problem with the same error . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m just tried it , the _UNK and it still doesn ' t work",
+            "ubuntu_ground_truth": "ok so this is working",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really know what you mean , but I don ' t know what you mean",
+            "ubuntu_ground_truth": "I expect nautilus took with it something important. Anyway, what is the output of lspci -nn | grep VGA",
+            "ubuntu_hred": "I have a problem with the same problem with the same problem . I have a problem with the same problem . I have a problem with the same error . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m using the default one , but I don ' t really able to use the resolution",
+            "ubuntu_ground_truth": "ok",
+            "ubuntu_hred": "I have a problem with the nvidia driver , but I don't know what the problem is that . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m not sure , I ' m just trying to get the sound working on the other computer",
+            "ubuntu_ground_truth": "I would reboot... see if x doesn't start. ok. please sudo apt-get install pastebinit sudo pastebinit /etc/X11/xorg.conf aticonfig --initial I believe that should have put that in /etc/X11. See if xorg.conf is there",
+            "ubuntu_hred": "I have a problem with the same problem with the same problem . I have a problem with the same problem . I have a problem with the same error . I have a \" sudo \" sudo modprobe \" and \" sudo modprobe \" and \" sudo modprobe \" and \" sudo modprobe \" and \" sudo -i \" and \" sudo -i \" and \" sudo -i \" and \" sudo -i \" and \" sudo -i \" and \" sudo -i \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the default driver , I am using the wrong driver , I am using the nvidia driver",
+            "ubuntu_ground_truth": "i needed to remove a package so i could re-install ubuntu-desktop package\n",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "you can try the live cd , or just install the alternate cd",
+            "ubuntu_ground_truth": "yeah, I am.",
+            "ubuntu_hred": "yes , but I don't know how to do that . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really like that , but I ' m not sure if I can get the right up",
+            "ubuntu_ground_truth": "sudo mkdir -p /var/lib/libreoffice/share/prereg sudo mkdir -p /var/lib/libreoffice/program/ sudo apt-get install -f probably that is not the entire solution, but it should lead us closer to the real error sudo rm -rf /var/lib/libreoffice",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want the same as the one that I want to install",
+            "ubuntu_ground_truth": "ok, and now try to fix dependencies again?",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , but I don ' t use the full path",
+            "ubuntu_ground_truth": "yep: sudo apt-get install -f",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "ok , I ' ll try , I ' ll try again , thanks",
+            "ubuntu_ground_truth": "exactly same thing.",
+            "ubuntu_hred": "I have to install the package to get a file to get a file to get a file to get a file . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what I ' m doing . . .",
+            "ubuntu_ground_truth": "you reckon we could go private, speed up the paste/run process?",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know what the problem is , I ' m just trying to get the",
+            "ubuntu_ground_truth": "sure.\n",
+            "ubuntu_hred": "I have a lot of the error message : \" sudo -i \" __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t know how to do it . . .",
+            "ubuntu_ground_truth": "and did you install the nvidia drivers yet?",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I have a _UNK card with the same card , but I don ' t have a _UNK of the",
+            "ubuntu_ground_truth": "i'm running the 173 drivers should i upgrade them?",
+            "ubuntu_hred": "I have a problem with the nvidia driver , but I have a problem with the nvidia driver . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know what you ' re doing",
+            "ubuntu_ground_truth": "you ran the nvidia-settings tool yet? and had it save the xorg.conf? then rebooted?",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to know how to get the drivers from the . . .",
+            "ubuntu_ground_truth": "i just reinstalled the OS from scratch",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know if it is the same thing",
+            "ubuntu_ground_truth": ".... so... you have or have NOT installed the nvidia drivers, rebooted, ran nvidia-settings, tweaked the displays, then restarted the X server? run it as the root user, 'gksudo nvidia-settings' perhaps?",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the same thing , I just want to get the X to start with the X server",
+            "ubuntu_ground_truth": "i switched to the version 295 driver and now i'm in 1024x768 but i know this monitor does 1280x1024 i had ubuntu installed and working fine but it crapped out on me after in installed my new hard drive and reinstalled ubuntu. why would it work fine in one install but not fine on another? under displays it has my monitor listed as laptop for some reason\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know how to do it",
+            "ubuntu_ground_truth": "yes, because i cant supply it at boot time, i want the truecrypt drive to come up by itself without manual intervention",
+            "ubuntu_hred": "I have to do that , but I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , but I don ' t use the live disk to the disk , so I can ' t use",
+            "ubuntu_ground_truth": "Kinda defeats the use of it anyone could get in don't you think?",
+            "ubuntu_hred": "what is the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to get the data from the other computer",
+            "ubuntu_ground_truth": "yes, i don't konw how else to do automatically (without it asking) upon boot up.",
+            "ubuntu_hred": "what is the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really know what you mean , but I don ' t know what you mean",
+            "ubuntu_ground_truth": "With a quick look at the web I think you need a script to be run, I can't really help beyond that. I use truecrypt, but I just encrypted a file rather then a HD.",
+            "ubuntu_hred": "what is the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using the alternate CD , I am trying to use the alternate cd to the desktop",
+            "ubuntu_ground_truth": "ok, i do have a init.d script, i am trying to see how to start this before any other scripts",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "sudo apt-get install _UNK",
+            "ubuntu_ground_truth": "Cool I can't really help sorry.\n",
+            "ubuntu_hred": "you can use the live cd to install the cd to install the cd to install the cd to install the cd to the file . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know what you mean , but I don ' t know about the _UNK",
+            "ubuntu_ground_truth": "im trying to make sense of some of these configuration options inside of config.mk for configuration of source for a driver for my ralink rt5390 chipset",
+            "ubuntu_hred": "I have a laptop with a laptop , but I don't have a laptop with the same time . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have to set up the network , but I don ' t have a router",
+            "ubuntu_ground_truth": "sorry, never had to deal with ralink. Broadcom only. stay in channel and ask",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I ' m just trying to get the source to the kernel , I ' m trying to get the source from the . com",
+            "ubuntu_ground_truth": "theyre configuration options that should be cross platform, like has_client_wds_support\n",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is that . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "http : //paste . ubuntu-nl . _UNK",
+            "ubuntu_ground_truth": ":) I'm newbie so i didn't know it before. thx for informing me.",
+            "ubuntu_hred": "I have a lot of the error message : No such file , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I don ' t really know , but I don ' t know if it is a bug or a bug",
+            "ubuntu_ground_truth": "hehe easy mistake. ;)\n",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": ": ( _UNK )",
+            "ubuntu_ground_truth": "i might be mistaken but that guide takes hard drives A --> and \"copies\" its structures to hard drive B, that's not what I want - I want to back up the contents on hard drive A on another drive for later retrieval",
+            "ubuntu_hred": "what 's the problem ? __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have tried the one that I am trying to do is to use the live disk , but I don ' t really want to be able",
+            "ubuntu_ground_truth": "you want to make an exact copy of drive a on drive usb right?",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "yes , I have a home , but I don ' t use the windows partition",
+            "ubuntu_ground_truth": "for backup purposes, yes - sort of like ghost",
+            "ubuntu_hred": "I don't know what the problem is , but I don't know what the problem is . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just want to know how to get the data to work on the drive",
+            "ubuntu_ground_truth": "dd will make an exact copy of a drive (partitioning scheme and all) on another drive\n",
+            "ubuntu_hred": "you can use the live cd to the live cd __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I just use the partition and it just won ' t get the data",
+            "ubuntu_ground_truth": "but i'm supposed to unmount the boot drive first. And how can i run a live on a VM guest?",
+            "ubuntu_hred": "I have a lot of the error message : \" sudo -i \" __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "no , I don ' t know what you mean , but it ' s not the same as the windows partition",
+            "ubuntu_ground_truth": "just use the iso as boot-device",
+            "ubuntu_hred": "you can use the live cd to install the live cd __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have a lot of problems , I just want to know how to get the data to work",
+            "ubuntu_ground_truth": "sounds neart\n",
+            "ubuntu_hred": "you can use the alternate cd to install the live cd __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I don ' t know , I don ' t use it in the repos",
+            "ubuntu_ground_truth": "thx",
+            "ubuntu_hred": "I have a lot of the same thing to get a few minutes ago . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I think , but I don ' t know if it ' ll work",
+            "ubuntu_ground_truth": "np\n",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "I am trying to use the grub menu , I just want to get the grub menu",
+            "ubuntu_ground_truth": "just want to run once the line",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        },
+        {
+            "adv_noise_ubuntu_old": "I have no idea , I am just trying to get the kernel to boot from the live cd",
+            "ubuntu_ground_truth": "don't understand make the changes to file /etc/default/grub , update-grub <-- in terminal to make change\n",
+            "ubuntu_hred": "I have a problem with the same problem . I have a problem with the same problem . __eou__"
+        }
+    ],
+    [
+        {
+            "adv_noise_ubuntu_old": "http : //www . _UNK . _UNK . html",
+            "ubuntu_ground_truth": "this one looks better http://www.droid-life.com/2012/08/09/ubuntu-for-android-gets-shown-off-and-detailed-we-want-this-as-soon-as-possible/ doesn't look like he is using VNC looks like native ubuntu.",
+            "ubuntu_hred": "I have a problem with my laptop , but I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I have a problem with the same problem . I"
+        },
+        {
+            "adv_noise_ubuntu_old": "I am using a _UNK server , I am not sure if I have a router or a _UNK",
+            "ubuntu_ground_truth": "just gave you the first link that I found with google\n",
+            "ubuntu_hred": "I have a lot of the time to get a few days ago . __eou__"
+        }
+    ]
+]
